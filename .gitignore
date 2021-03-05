@@ -1,0 +1,10 @@
+/imageproc/vivado_*.backup*
+/imageproc/imageproc.sim
+/imageproc/imageproc.runs
+/imageproc/vivado.jou
+/imageproc/vivado.log
+/imageproc/.Xil
+/imageproc/imageproc.cache
+/imageproc/imageproc.hw
+/imageproc/imageproc.ip_user_files
+/imageproc/imageproc.ipdefs

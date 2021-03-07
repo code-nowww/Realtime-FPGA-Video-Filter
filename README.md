@@ -374,5 +374,3 @@ assign {VGA_R, VGA_G, VGA_B} = active ? sram_out : 12'h000; // display color
         <td><p><img src='image/edge2.jpg'></img>threshold=2</p></td>
     </tr>
 </table>
-
-## 总结与思考

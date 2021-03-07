@@ -31,16 +31,7 @@ module sobel(
     output reg [18:0]addr_out,
     output reg valid_out
     );
-//    // mask x
-//    parameter X1 = 12'hfff, X2 = 12'h000, X3 = 12'h001;
-//    parameter X4 = 12'hffe, X5 = 12'h000, X6 = 12'h002;
-//    parameter X7 = 12'hfff, X8 = 12'h000, X9 = 12'h001;
-    
-//    // mask y
-//    parameter Y1 = 12'h001, Y2 = 12'h002, Y3 = 12'h001;
-//    parameter Y4 = 12'h000, Y5 = 12'h000, Y6 = 12'h000;
-//    parameter Y7 = 12'hfff, Y8 = 12'hffe, Y9 = 12'hfff; 
-    
+
     reg processing = 0;
     reg [11:0] martix_00, martix_01, martix_02, martix_10, martix_11, martix_12, martix_20, martix_21, martix_22;
     wire [11:0] line1, line2, line3;
@@ -54,8 +45,6 @@ module sobel(
     
     always@(posedge valid_pause)
     begin
-//        if(valid_pause)
-//        begin
         martix_02 <= line1;
         martix_01 <= martix_02;
         martix_00 <= martix_01;
@@ -65,7 +54,6 @@ module sobel(
         martix_22 <= line3;
         martix_21 <= martix_22;
         martix_20 <= martix_21;
-//        end
     end
     
     line_cache(
@@ -107,19 +95,8 @@ module sobel(
         
     end
     
-//    wire [18:0] stage1_addr, stage2_addr, stage3_addr;
-//    wire [5:0] stage1_data_line1_x, stage1_data_line2_x, stage1_data_line3_x, stage1_data_line1_y, stage1_data_line2_y, stage1_data_line3_y;
-//    wire [6:0] stage2_data_x, stage2_data_y;
-//    wire [7:0] final_data;
-//    assign    stage1_data_line1_x = martix_02[3:0] - martix_00[3:0];
-//    assign    stage1_data_line2_x = (martix_12[3:0] - martix_10[3:0]) << 1;
-//    assign    stage1_data_line3_x = martix_22[3:0] - martix_20[3:0];
-//    assign    stage1_data_line1_y = martix_00[3:0] - martix_20[3:0];
-//    assign    stage1_data_line2_y = (martix_01[3:0] - martix_02[3:0]) << 1;
-//    assign    stage1_data_line3_y = martix_02[3:0] - martix_22[3:0];
-//    assign    stage2_data_x = stage1_data_line1_x + stage1_data_line2_x + stage1_data_line3_x;
-//    assign    stage2_data_y = stage1_data_line1_y + stage1_data_line2_y + stage1_data_line3_y;
-    assign final_data = stage2_data_x + stage2_data_y;
+    assign final_data = (stage2_data_x > 0 ? stage2_data_x : -stage2_data_x) + 
+                        (stage2_data_y > 0 ? stage2_data_y : -stage2_data_y);
 
     always@(posedge CLK_100MHZ or posedge RST)
     begin

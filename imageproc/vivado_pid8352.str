@@ -114,3 +114,379 @@ Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 // Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'F:/Data/USTC-CS-Resources/CS/Embedded-System-Design/Realtime-FPGA-Video-Filter/imageproc' 
 // Tcl Message: Scanning sources... Finished scanning sources 
 // Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2020.2/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:07 . Memory (MB): peak = 1106.566 ; gain = 0.000 
+// Project name: imageproc; location: F:/Data/USTC-CS-Resources/CS/Embedded-System-Design/Realtime-FPGA-Video-Filter/imageproc; part: xc7a100tcsg324-1
+dismissDialog("Open Project"); // bz
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// [GUI Memory]: 150 MB (+10888kb) [00:00:18]
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton(RDIResourceCommand.RDICommands_SETTINGS, "xc7a100tcsg324-1"); // h
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// d (cr): Settings: addNotify
+dismissDialog("Settings"); // d
+selectButton(RDIResourceCommand.RDICommands_SETTINGS, "xc7a100tcsg324-1"); // h
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// d (cr): Settings: addNotify
+selectButton(PAResourceQtoS.SettingsProjectGeneralPage_CHOOSE_DEVICE_FOR_YOUR_PROJECT, (String) null); // t
+// [GUI Memory]: 165 MB (+8665kb) [00:00:24]
+// c (d): Select Device: addNotify
+dismissDialog("Select Device"); // c
+dismissDialog("Settings"); // d
+selectButton(RDIResourceCommand.RDICommands_SETTINGS, "xc7a100tcsg324-1"); // h
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// d (cr): Settings: addNotify
+selectButton(PAResourceQtoS.SettingsProjectGeneralPage_CHOOSE_DEVICE_FOR_YOUR_PROJECT, (String) null); // t
+// c (d): Select Device: addNotify
+dismissDialog("Select Device"); // c
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ak
+dismissDialog("Settings"); // d
+// Elapsed time: 1497 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v)]", 2); // D
+// RDIResource.RDIViews_PROPERTIES: Properties: close view
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v), camera_config : camera_config (camera_config.v)]", 3, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v), camera_config : camera_config (camera_config.v)]", 3, true, false, false, false, false, true); // D - Double Click - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 1,101 MB. GUI used memory: 92 MB. Current time: 3/7/21, 2:23:46 PM CST
+// Elapsed time: 592 seconds
+selectCodeEditor("camera_config.v", 173, 236); // bP
+selectCodeEditor("camera_config.v", 172, 235, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "camera_config.v", 'c'); // bP
+typeControlKey((HResource) null, "camera_config.v", 'c'); // bP
+// Elapsed time: 12 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "sioc"); // l
+selectCodeEditor("camera_config.v", 265, 151); // bP
+selectCodeEditor("camera_config.v", 265, 151, false, false, false, false, true); // bP - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v), camera_config : camera_config (camera_config.v), ov7670_config_rom_444 : ov7670_config_rom_rgb444 (ov7670_config_rom_rgb444.v)]", 4, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v), camera_config : camera_config (camera_config.v), sccb : sccb_interface (sccb_interface.v)]", 6, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v), camera_config : camera_config (camera_config.v), sccb : sccb_interface (sccb_interface.v)]", 6, false, false, false, false, false, true); // D - Double Click
+selectCodeEditor("sccb_interface.v", 620, 322); // bP
+selectCodeEditor("sccb_interface.v", 636, 201); // bP
+selectCodeEditor("sccb_interface.v", 588, 203); // bP
+selectCodeEditor("sccb_interface.v", 586, 369); // bP
+selectCodeEditor("sccb_interface.v", 584, 377); // bP
+selectCodeEditor("sccb_interface.v", 577, 90); // bP
+selectCodeEditor("sccb_interface.v", 569, 111); // bP
+selectCodeEditor("sccb_interface.v", 643, 527); // bP
+selectCodeEditor("sccb_interface.v", 641, 329); // bP
+selectCodeEditor("sccb_interface.v", 627, 54); // bP
+selectCodeEditor("sccb_interface.v", 644, 408); // bP
+selectCodeEditor("sccb_interface.v", 651, 431); // bP
+selectCodeEditor("sccb_interface.v", 701, 240); // bP
+selectCodeEditor("sccb_interface.v", 621, 184); // bP
+selectCodeEditor("sccb_interface.v", 673, 519); // bP
+typeControlKey((HResource) null, "sccb_interface.v", 'c'); // bP
+selectCodeEditor("sccb_interface.v", 775, 308); // bP
+selectCodeEditor("sccb_interface.v", 780, 372); // bP
+selectCodeEditor("sccb_interface.v", 814, 507); // bP
+selectCodeEditor("sccb_interface.v", 796, 493); // bP
+selectCodeEditor("sccb_interface.v", 782, 440); // bP
+selectCodeEditor("sccb_interface.v", 778, 437); // bP
+selectCodeEditor("sccb_interface.v", 771, 445); // bP
+// Elapsed time: 12 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v), camera_config : camera_config (camera_config.v)]", 3); // D
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v)]", 2); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources]", 3); // D
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources]", 3); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources]", 3); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, I2C_Controller.v]", 6, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, I2C_Controller.v]", 6, false, false, false, false, false, true); // D - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, ov_7670_capture.v]", 10, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, ov_7670_capture.v]", 10, false, false, false, false, false, true); // D - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, ov7670_config_rom.v]", 9, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, ov7670_config_rom.v]", 9, false, false, false, false, false, true); // D - Double Click
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, ov_7670_init.v]", 11, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, ov_7670_init.v]", 11, false, false, false, false, false, true); // D - Double Click
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, ov7670_config_rom.v]", 9, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, ov7670_config_rom.v]", 9, false, false, false, false, false, true); // D - Double Click
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, ov_sccb.v]", 12, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, ov_sccb.v]", 12, false, false, false, false, false, true); // D - Double Click
+// Elapsed time: 312 seconds
+selectCodeEditor("ov_sccb.v", 432, 174); // bP
+selectCodeEditor("ov_sccb.v", 432, 174, false, false, false, false, true); // bP - Double Click
+// Elapsed time: 547 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources]", 3); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v)]", 2); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v), camera_capture : camera_capture (camera_capture.v)]", 4, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v), camera_capture : camera_capture (camera_capture.v)]", 4, false, false, false, false, false, true); // D - Double Click
+selectCodeEditor("camera_capture.v", 155, 370); // bP
+selectCodeEditor("camera_capture.v", 155, 370, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("camera_capture.v", 145, 339); // bP
+selectCodeEditor("camera_capture.v", 145, 339, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("camera_capture.v", 571, 355); // bP
+selectCodeEditor("camera_capture.v", 338, 329); // bP
+// HMemoryUtils.trashcanNow. Engine heap size: 1,101 MB. GUI used memory: 90 MB. Current time: 3/7/21, 2:53:47 PM CST
+// Elapsed time: 677 seconds
+selectCodeEditor("camera_capture.v", 351, 363); // bP
+selectCodeEditor("camera_capture.v", 460, 444); // bP
+selectCodeEditor("camera_capture.v", 351, 504); // bP
+selectCodeEditor("camera_capture.v", 326, 325); // bP
+selectCodeEditor("camera_capture.v", 334, 249); // bP
+selectCodeEditor("camera_capture.v", 323, 273); // bP
+selectCodeEditor("camera_capture.v", 320, 331); // bP
+// Elapsed time: 211 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v), camera_config : camera_config (camera_config.v)]", 3, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v), camera_capture : camera_capture (camera_capture.v)]", 4, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v), camera_capture : camera_capture (camera_capture.v)]", 4, false, false, false, false, false, true); // D - Double Click
+selectCodeEditor("camera_capture.v", 443, 524); // bP
+selectCodeEditor("camera_capture.v", 252, 574); // bP
+typeControlKey((HResource) null, "camera_capture.v", 'c'); // bP
+typeControlKey((HResource) null, "camera_capture.v", 'c'); // bP
+typeControlKey((HResource) null, "camera_capture.v", 'c'); // bP
+typeControlKey((HResource) null, "camera_capture.v", 'c'); // bP
+typeControlKey((HResource) null, "camera_capture.v", 'c'); // bP
+typeControlKey((HResource) null, "camera_capture.v", 'c'); // bP
+// Elapsed time: 19 seconds
+selectCodeEditor("camera_capture.v", 328, 492); // bP
+selectCodeEditor("camera_capture.v", 222, 548); // bP
+typeControlKey((HResource) null, "camera_capture.v", 'c'); // bP
+typeControlKey((HResource) null, "camera_capture.v", 'c'); // bP
+selectCodeEditor("camera_capture.v", 480, 403); // bP
+// Elapsed time: 39 seconds
+typeControlKey((HResource) null, "camera_capture.v", 'c'); // bP
+selectCodeEditor("camera_capture.v", 368, 483); // bP
+selectCodeEditor("camera_capture.v", 266, 559); // bP
+typeControlKey((HResource) null, "camera_capture.v", 'c'); // bP
+typeControlKey((HResource) null, "camera_capture.v", 'c'); // bP
+typeControlKey((HResource) null, "camera_capture.v", 'c'); // bP
+selectCodeEditor("camera_capture.v", 376, 488); // bP
+// Elapsed time: 92 seconds
+selectCodeEditor("camera_capture.v", 641, 310); // bP
+selectCodeEditor("camera_capture.v", 724, 166); // bP
+selectCodeEditor("camera_capture.v", 555, 89); // bP
+selectCodeEditor("camera_capture.v", 606, 139); // bP
+selectCodeEditor("camera_capture.v", 487, 95); // bP
+selectCodeEditor("camera_capture.v", 537, 127); // bP
+selectCodeEditor("camera_capture.v", 536, 105); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov_sccb.v", 5); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "camera_capture.v", 6); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov_sccb.v", 5); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ov_7670_init.v", 4); // m
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v), camera_config : camera_config (camera_config.v)]", 3, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v), camera_config : camera_config (camera_config.v)]", 3, true, false, false, false, false, true); // D - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v), camera_config : camera_config (camera_config.v), ov7670_config_rom_444 : ov7670_config_rom_rgb444 (ov7670_config_rom_rgb444.v)]", 4, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v), camera_config : camera_config (camera_config.v), ov7670_config_rom_444 : ov7670_config_rom_rgb444 (ov7670_config_rom_rgb444.v)]", 4, false, false, false, false, false, true); // D - Double Click
+selectCodeEditor("ov7670_config_rom_rgb444.v", 501, 206); // bP
+typeControlKey((HResource) null, "ov7670_config_rom_rgb444.v", 'c'); // bP
+typeControlKey((HResource) null, "ov7670_config_rom_rgb444.v", 'c'); // bP
+typeControlKey((HResource) null, "ov7670_config_rom_rgb444.v", 'c'); // bP
+typeControlKey((HResource) null, "ov7670_config_rom_rgb444.v", 'c'); // bP
+selectCodeEditor("ov7670_config_rom_rgb444.v", 520, 203); // bP
+// Elapsed time: 68 seconds
+selectCodeEditor("ov7670_config_rom_rgb444.v", 231, 368); // bP
+selectCodeEditor("ov7670_config_rom_rgb444.v", 231, 368, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "ov7670_config_rom_rgb444.v", 'c'); // bP
+typeControlKey((HResource) null, "ov7670_config_rom_rgb444.v", 'c'); // bP
+selectCodeEditor("ov7670_config_rom_rgb444.v", 461, 356); // bP
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "proj_top_mit.v", 3); // m
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v), camera_config : camera_config (camera_config.v)]", 3, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v), camera_config : camera_config (camera_config.v)]", 3, true, false, false, false, false, true); // D - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v), display : vga640x480 (vga_display.v)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v), camera_capture : camera_capture (camera_capture.v)]", 4, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v), sram1 : sram (sram.v)]", 26, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v), test_image_outer : test_image_outer (test_image_outer.v)]", 21, true); // D - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v), camera_config : camera_config (camera_config.v)]", 3); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v), camera_config : camera_config (camera_config.v), ov7670_config : ov7670_config (ov7670_config.v)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v), camera_config : camera_config (camera_config.v), ov7670_config : ov7670_config (ov7670_config.v)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v), camera_config : camera_config (camera_config.v), ov7670_config : ov7670_config (ov7670_config.v)]", 5, false, false, false, false, false, true); // D - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v), camera_config : camera_config (camera_config.v), sccb : sccb_interface (sccb_interface.v)]", 6, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v), camera_config : camera_config (camera_config.v), sccb : sccb_interface (sccb_interface.v)]", 6, false, false, false, false, false, true); // D - Double Click
+// Elapsed time: 46 seconds
+selectCodeEditor("sccb_interface.v", 284, 524); // bP
+typeControlKey((HResource) null, "sccb_interface.v", 'c'); // bP
+typeControlKey((HResource) null, "sccb_interface.v", 'c'); // bP
+selectCodeEditor("sccb_interface.v", 403, 235); // bP
+// Elapsed time: 18 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v), camera_config : camera_config (camera_config.v), ov7670_config : ov7670_config (ov7670_config.v)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v), camera_config : camera_config (camera_config.v), ov7670_config : ov7670_config (ov7670_config.v)]", 5, false, false, false, false, false, true); // D - Double Click
+// Elapsed time: 14 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v), camera_config : camera_config (camera_config.v)]", 3); // D
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 52 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v)]", 2); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources]", 3); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, CMOS_Capture.v]", 4, false, false, false, false, true, false); // D - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ak
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cr): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Remove Sources"); // aE
+// Tcl Message: export_ip_user_files -of_objects  [get_files F:/Data/USTC-CS-Resources/CS/Embedded-System-Design/Realtime-FPGA-Video-Filter/imageproc/imageproc.srcs/sources_1/imports/cmos_i2c_ov7670/CMOS_Capture.v] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  F:/Data/USTC-CS-Resources/CS/Embedded-System-Design/Realtime-FPGA-Video-Filter/imageproc/imageproc.srcs/sources_1/imports/cmos_i2c_ov7670/CMOS_Capture.v 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, I2C_AV_Config.v]", 5, false, false, false, false, true, false); // D - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ak
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cr): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Remove Sources"); // aE
+// Tcl Message: export_ip_user_files -of_objects  [get_files F:/Data/USTC-CS-Resources/CS/Embedded-System-Design/Realtime-FPGA-Video-Filter/imageproc/imageproc.srcs/sources_1/imports/cmos_i2c_ov7670/I2C_AV_Config.v] -no_script -reset -force -quiet 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  F:/Data/USTC-CS-Resources/CS/Embedded-System-Design/Realtime-FPGA-Video-Filter/imageproc/imageproc.srcs/sources_1/imports/cmos_i2c_ov7670/I2C_AV_Config.v 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, proj_top.v]", 13, false, false, true, false, false, false); // D - Control Key
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, ov_sccb.v]", 12, false, false, true, false, false, false); // D - Control Key
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, ov_7670_init.v]", 11, false, false, true, false, false, false); // D - Control Key
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, ov_7670_capture.v]", 10, false, false, true, false, false, false); // D - Control Key
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, ov7670_config_rom.v]", 9, false, false, true, false, false, false); // D - Control Key
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, ov_7670_capture.v]", 8, false, false, true, false, false, false); // D - Control Key
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, ov_7670_capture.v]", 8, false, false, true, false, false, false); // D - Control Key
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, ov7670_config_rom.v]", 7, false, false, true, false, false, false); // D - Control Key
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, I2C_OV7670_YUV422_Config.v]", 6, false, false, true, false, false, false); // D - Control Key
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, I2C_OV7670_RGB565_Config.v]", 5, false, false, true, false, false, false); // D - Control Key
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, I2C_Controller.v]", 4, false, false, true, false, false, false); // D - Control Key
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, I2C_Controller.v]", 4, false, false, false, false, true, false); // D - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ak
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cr): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Remove Sources"); // aE
+// Tcl Message: export_ip_user_files -of_objects  [get_files F:/Data/USTC-CS-Resources/CS/Embedded-System-Design/Realtime-FPGA-Video-Filter/imageproc/imageproc.srcs/sources_1/imports/cmos_i2c_ov7670/I2C_OV7670_YUV422_Config.v] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files F:/Data/USTC-CS-Resources/CS/Embedded-System-Design/Realtime-FPGA-Video-Filter/imageproc/imageproc.srcs/sources_1/imports/cmos_i2c_ov7670/I2C_OV7670_RGB565_Config.v] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files F:/Data/USTC-CS-Resources/CS/Embedded-System-Design/Realtime-FPGA-Video-Filter/imageproc/imageproc.srcs/sources_1/imports/cmos_i2c_ov7670/I2C_Controller.v] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  {F:/Data/USTC-CS-Resources/CS/Embedded-System-Design/Realtime-FPGA-Video-Filter/imageproc/imageproc.srcs/sources_1/imports/cmos_i2c_ov7670/I2C_OV7670_YUV422_Config.v F:/Data/USTC-CS-Resources/CS/Embedded-System-Design/Realtime-FPGA-Video-Filter/imageproc/imageproc.srcs/sources_1/imports/cmos_i2c_ov7670/I2C_OV7670_RGB565_Config.v F:/Data/USTC-CS-Resources/CS/Embedded-System-Design/Realtime-FPGA-Video-Filter/imageproc/imageproc.srcs/sources_1/imports/cmos_i2c_ov7670/I2C_Controller.v} 
+// Tcl Message: export_ip_user_files -of_objects  [get_files F:/Data/USTC-CS-Resources/CS/Embedded-System-Design/Realtime-FPGA-Video-Filter/imageproc/imageproc.srcs/sources_1/new/proj_top.v] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files F:/Data/USTC-CS-Resources/CS/Embedded-System-Design/Realtime-FPGA-Video-Filter/imageproc/imageproc.srcs/sources_1/imports/ov_7670/ov_sccb/ov_sccb.v] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files F:/Data/USTC-CS-Resources/CS/Embedded-System-Design/Realtime-FPGA-Video-Filter/imageproc/imageproc.srcs/sources_1/imports/ov_7670/ov_7670_init.v] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files F:/Data/USTC-CS-Resources/CS/Embedded-System-Design/Realtime-FPGA-Video-Filter/imageproc/imageproc.srcs/sources_1/imports/ov_7670/ov_7670_capture.v] -no_script -reset -force -quiet 
+// Tcl Message: export_ip_user_files -of_objects  [get_files F:/Data/USTC-CS-Resources/CS/Embedded-System-Design/Realtime-FPGA-Video-Filter/imageproc/imageproc.srcs/sources_1/new/ov7670_config_rom.v] -no_script -reset -force -quiet 
+// TclEventType: FILE_SET_CHANGE
+// aE (cr): Remove Sources: addNotify
+// bz (aE):  Remove Sources : addNotify
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  {F:/Data/USTC-CS-Resources/CS/Embedded-System-Design/Realtime-FPGA-Video-Filter/imageproc/imageproc.srcs/sources_1/new/proj_top.v F:/Data/USTC-CS-Resources/CS/Embedded-System-Design/Realtime-FPGA-Video-Filter/imageproc/imageproc.srcs/sources_1/imports/ov_7670/ov_sccb/ov_sccb.v F:/Data/USTC-CS-Resources/CS/Embedded-System-Design/Realtime-FPGA-Video-Filter/imageproc/imageproc.srcs/sources_1/imports/ov_7670/ov_7670_init.v F:/Data/USTC-CS-Resources/CS/Embedded-System-Design/Realtime-FPGA-Video-Filter/imageproc/imageproc.srcs/sources_1/imports/ov_7670/ov_7670_capture.v F:/Data/USTC-CS-Resources/CS/Embedded-System-Design/Realtime-FPGA-Video-Filter/imageproc/imageproc.srcs/sources_1/new/ov7670_config_rom.v} 
+dismissDialog("Remove Sources"); // bz
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, I2C_OV7670_RGB565_Config.v]", 5, false, false, false, false, true, false); // D - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ak
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cr): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Remove Sources"); // aE
+// Tcl Message: remove_files  F:/Data/USTC-CS-Resources/CS/Embedded-System-Design/Realtime-FPGA-Video-Filter/imageproc/imageproc.srcs/sources_1/imports/cmos_i2c_ov7670/I2C_OV7670_RGB565_Config.v 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, I2C_OV7670_YUV422_Config.v]", 6, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, proj_top.v]", 11, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, ov_sccb.v]", 10, false, false, true, false, false, false); // D - Control Key
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Utility Sources]", 7, true, false, false, false, true, false); // D - Popup Trigger - Node
+// Elapsed time: 20 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v)]", 2); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v), camera_capture : camera_capture (camera_capture.v)]", 4, false); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v), camera_config : camera_config (camera_config.v)]", 3); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v), camera_config : camera_config (camera_config.v), ov7670_config : ov7670_config (ov7670_config.v)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v), camera_config : camera_config (camera_config.v), ov7670_config : ov7670_config (ov7670_config.v)]", 5, false, false, false, false, false, true); // D - Double Click
+// Elapsed time: 11 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v)]", 2); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v)]", 2); // D
+// Elapsed time: 764 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v), camera_config : camera_config (camera_config.v)]", 3); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v), mean_filter : mean_filter (mean_filter.v)]", 22, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v), mean_filter : mean_filter (mean_filter.v)]", 22, true, false, false, false, false, true); // D - Double Click - Node
+selectCodeEditor("mean_filter.v", 187, 505); // bP
+selectCodeEditor("mean_filter.v", 343, 453); // bP
+selectCodeEditor("mean_filter.v", 316, 549); // bP
+typeControlKey((HResource) null, "mean_filter.v", 'c'); // bP
+typeControlKey((HResource) null, "mean_filter.v", 'c'); // bP
+typeControlKey((HResource) null, "mean_filter.v", 'c'); // bP
+selectCodeEditor("mean_filter.v", 242, 283); // bP
+// HMemoryUtils.trashcanNow. Engine heap size: 1,101 MB. GUI used memory: 91 MB. Current time: 3/7/21, 3:23:47 PM CST
+// Elapsed time: 181 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v), mid_filter : mid_filter (mid_filter.v)]", 25, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v), mid_filter : mid_filter (mid_filter.v)]", 25, true, false, false, false, false, true); // D - Double Click - Node
+selectCodeEditor("mid_filter.v", 383, 491); // bP
+selectCodeEditor("mid_filter.v", 70, 126); // bP
+selectCodeEditor("mid_filter.v", 71, 125); // bP
+typeControlKey((HResource) null, "mid_filter.v", 'c'); // bP
+typeControlKey((HResource) null, "mid_filter.v", 'c'); // bP
+typeControlKey((HResource) null, "mid_filter.v", 'c'); // bP
+typeControlKey((HResource) null, "mid_filter.v", 'c'); // bP
+selectCodeEditor("mid_filter.v", 372, 341); // bP
+// Elapsed time: 36 seconds
+selectCodeEditor("mid_filter.v", 336, 449); // bP
+typeControlKey((HResource) null, "mid_filter.v", 'c'); // bP
+typeControlKey((HResource) null, "mid_filter.v", 'c'); // bP
+typeControlKey((HResource) null, "mid_filter.v", 'c'); // bP
+selectCodeEditor("mid_filter.v", 258, 248); // bP
+// Elapsed time: 43 seconds
+selectCodeEditor("mid_filter.v", 309, 407); // bP
+selectCodeEditor("mid_filter.v", 895, 338); // bP
+typeControlKey((HResource) null, "mid_filter.v", 'c'); // bP
+typeControlKey((HResource) null, "mid_filter.v", 'c'); // bP
+typeControlKey((HResource) null, "mid_filter.v", 'c'); // bP
+typeControlKey((HResource) null, "mid_filter.v", 'c'); // bP
+selectCodeEditor("mid_filter.v", 485, 356); // bP
+// Elapsed time: 18 seconds
+selectCodeEditor("mid_filter.v", 900, 299); // bP
+typeControlKey((HResource) null, "mid_filter.v", 'c'); // bP
+typeControlKey((HResource) null, "mid_filter.v", 'c'); // bP
+selectCodeEditor("mid_filter.v", 891, 411); // bP
+typeControlKey((HResource) null, "mid_filter.v", 'c'); // bP
+typeControlKey((HResource) null, "mid_filter.v", 'c'); // bP
+selectCodeEditor("mid_filter.v", 553, 451); // bP
+// Elapsed time: 195 seconds
+selectCodeEditor("mid_filter.v", 351, 495); // bP
+typeControlKey((HResource) null, "mid_filter.v", 'c'); // bP
+typeControlKey((HResource) null, "mid_filter.v", 'c'); // bP
+typeControlKey((HResource) null, "mid_filter.v", 'c'); // bP
+selectCodeEditor("mid_filter.v", 42, 411); // bP
+selectCodeEditor("mid_filter.v", 71, 388); // bP
+typeControlKey((HResource) null, "mid_filter.v", 'c'); // bP
+typeControlKey((HResource) null, "mid_filter.v", 'c'); // bP
+typeControlKey((HResource) null, "mid_filter.v", 'c'); // bP
+typeControlKey((HResource) null, "mid_filter.v", 'c'); // bP
+typeControlKey((HResource) null, "mid_filter.v", 'c'); // bP
+typeControlKey((HResource) null, "mid_filter.v", 'c'); // bP
+typeControlKey((HResource) null, "mid_filter.v", 'c'); // bP
+typeControlKey((HResource) null, "mid_filter.v", 'c'); // bP
+selectCodeEditor("mid_filter.v", 343, 497); // bP
+// Elapsed time: 47 seconds
+selectCodeEditor("mid_filter.v", 215, 315); // bP
+typeControlKey((HResource) null, "mid_filter.v", 'c'); // bP
+typeControlKey((HResource) null, "mid_filter.v", 'c'); // bP
+typeControlKey((HResource) null, "mid_filter.v", 'c'); // bP
+typeControlKey((HResource) null, "mid_filter.v", 'c'); // bP
+selectCodeEditor("mid_filter.v", 672, 328); // bP
+selectCodeEditor("mid_filter.v", 660, 304); // bP
+// Elapsed time: 103 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+// Elapsed time: 325 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v), mean_filter : mean_filter (mean_filter.v)]", 22); // D
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v), mid_filter : mid_filter (mid_filter.v)]", 23); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v), rgb444_to_gray : rgb444_to_gray (rgb444_to_gray.v)]", 24, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, proj_top_mit (proj_top_mit.v), rgb444_to_gray : rgb444_to_gray (rgb444_to_gray.v)]", 24, false, false, false, false, false, true); // D - Double Click
+// Elapsed time: 17 seconds
+selectCodeEditor("rgb444_to_gray.v", 367, 127); // bP
+typeControlKey((HResource) null, "rgb444_to_gray.v", 'c'); // bP
+typeControlKey((HResource) null, "rgb444_to_gray.v", 'c'); // bP
+selectCodeEditor("rgb444_to_gray.v", 358, 202); // bP
+// Elapsed time: 129 seconds
+selectCodeEditor("rgb444_to_gray.v", 35, 338); // bP
+typeControlKey((HResource) null, "rgb444_to_gray.v", 'c'); // bP
+typeControlKey((HResource) null, "rgb444_to_gray.v", 'c'); // bP
+typeControlKey((HResource) null, "rgb444_to_gray.v", 'c'); // bP
+typeControlKey((HResource) null, "rgb444_to_gray.v", 'c'); // bP
+// Elapsed time: 11 seconds
+typeControlKey((HResource) null, "rgb444_to_gray.v", 'c'); // bP
+// Elapsed time: 273 seconds
+selectCodeEditor("rgb444_to_gray.v", 379, 517); // bP
+selectCodeEditor("rgb444_to_gray.v", 587, 515); // bP
+selectCodeEditor("rgb444_to_gray.v", 587, 444); // bP
+selectCodeEditor("rgb444_to_gray.v", 794, 152); // bP
+selectCodeEditor("rgb444_to_gray.v", 869, 437); // bP
+selectCodeEditor("rgb444_to_gray.v", 856, 443); // bP
+selectCodeEditor("rgb444_to_gray.v", 784, 531); // bP
+selectCodeEditor("rgb444_to_gray.v", 765, 535); // bP
+selectCodeEditor("rgb444_to_gray.v", 755, 144); // bP
+selectCodeEditor("rgb444_to_gray.v", 804, 220); // bP
+selectCodeEditor("rgb444_to_gray.v", 817, 525); // bP
+selectCodeEditor("rgb444_to_gray.v", 835, 89); // bP
+selectCodeEditor("rgb444_to_gray.v", 768, 455); // bP
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sccb_interface.v", 2); // m
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F

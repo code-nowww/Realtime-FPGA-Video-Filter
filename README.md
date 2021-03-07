@@ -329,21 +329,6 @@ assign {VGA_R, VGA_G, VGA_B} = active ? sram_out : 12'h000; // display color
 ```
 
 ## 效果演示
-<<<<<<< HEAD
-
-### 均值滤波
-图
-### 中值滤波
-图
-### 灰度化
-图
-### 反灰度化
-图
-### 图像边缘检测
-图
-#### 不同阈值的结果
-放一组图
-=======
 我们以拍摄`农夫山泉瓶装矿泉水`的结果作为演示.
 ### 原图像
 <table>
@@ -389,6 +374,5 @@ assign {VGA_R, VGA_G, VGA_B} = active ? sram_out : 12'h000; // display color
         <td><p><img src='image/edge2.jpg'></img>threshold=2</p></td>
     </tr>
 </table>
->>>>>>> e9bd8b6e59c419d0f51febc8712c794f87712ced
 
 ## 总结与思考

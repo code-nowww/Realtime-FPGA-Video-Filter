@@ -253,7 +253,7 @@ assign final_data = (stage2_data_x > 0 ? stage2_data_x : -stage2_data_x) +
 
 由于Sobel、均值滤波和中值滤波需要使用$3*3$的图像矩阵，所以滑动窗口模块用于每次从图像中取出纵向3个像素的值，通过3个周期的时间，就可以取出一个完整的$3*3$矩阵，如下图所示（下图中它一次性取出连续的3个数据，所以不需要3个周期就可以取出3*3的图像矩阵）。
 
-![img](README.assets/photo.png)
+![img](image/photo.png)
 
 使用Vivado提供的shift ram可以简单的实现滑动窗口。shift ram类似于一个限定了大小的FIFO，通过将3个大小为640的shift ram首尾相接，就可以同时缓存3行的视频像素数据。图解如下：
 

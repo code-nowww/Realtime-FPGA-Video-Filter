@@ -194,17 +194,50 @@ assign gray_pixel_dark = {tmp_gray[6:3], tmp_gray[6:3], tmp_gray[6:3]};
 @hzy
 
 ## 效果演示
-### 均值滤波
-图
-### 中值滤波
-图
-### 灰度化
-图
-### 反灰度化
-图
-### 图像边缘检测
-图
-#### 不同阈值的结果
-放一组图
+我们以拍摄`农夫山泉瓶装矿泉水`的结果作为演示.
+### 原图像
+<table>
+    <tr>
+        <td><p><img src='image/origin.jpg'></img>原图</p></td>
+    </tr>
+</table>
+
+### 各层效果
+#### 均值滤波 和 中值滤波
+<table>
+    <tr>
+        <td><p><img src='image/mean.jpg'></img>均值滤波</p></td>
+        <td><p><img src='image/mid.jpg'></img>中值滤波</p></td>
+    </tr>
+</table>
+
+#### 灰度化 和 反灰度化
+<table>
+    <tr>
+        <td><p><img src='image/antigray.jpg'></img>反灰度化</p></td>
+        <td><p><img src='image/gray.jpg'></img>灰度化</p></td>
+    </tr>
+</table>
+
+#### 边缘检测提取
+<table>
+    <tr>
+        <td><p><img src='image/edge.jpg'></img>边缘检测提取(threshold=128)</p></td>
+    </tr>
+</table>
+
+
+### 不同阈值的结果
+另外, 作为对比, 在阈值分别为 128, 32, 8, 2 的情况下, 有下列结果:
+<table>
+    <tr>
+        <td><p><img src='image/edge.jpg'></img>threshold=128</p></td>
+        <td><p><img src='image/edge32.jpg'></img>threshold=32</p></td>
+    </tr>
+    <tr>
+        <td><p><img src='image/edge8.jpg'></img>threshold=8</p></td>
+        <td><p><img src='image/edge2.jpg'></img>threshold=2</p></td>
+    </tr>
+</table>
 
 ## 总结与思考

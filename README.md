@@ -1,5 +1,5 @@
 # Realtime-FPGA-Video-Filter
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/code-nowww/Realtime-FPGA-Video-Filter/blob/6d734e23fdefc5e402ff33fae2f4699035aa60a9/LICENSE)
 A realtime video filter on FPGA Nexys4.
 
 [TOC]
